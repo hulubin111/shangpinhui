@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+ <div data-attrOne="111" data-attrSecond="222"></div>
+
+</body>
+<script>
+
+ let div = document.querySelector('div')
+//  element.dataset的属性值为一个对象，里面存的是元素的自定义属性。
+// 如果有驼峰记得写小写。属性名不用加data-
+ console.log(div.dataset.attrone);
+ console.log(div.dataset.attrsecond);
+</script>
+</html>
